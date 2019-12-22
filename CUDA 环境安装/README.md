@@ -4,9 +4,11 @@ WIN10 X64 企业版LTSC，Nvidia GeForce 1070，VS2019
 ## 安装CUDA Toolkit
 在保证NVIDIA显卡驱动成功安装的条件下，从下面链接下载并安装对应版本的CUDA Toolkit.（注意：最好已经安装好VS）
 cuda下载链接，https://developer.nvidia.com/cuda-downloads  
-![CUDA10 downloads](https://github.com/fengyu10/CUDA-Programming/blob/master/CUDA 环境安装/CUDA10 downloads.png)  
-通过在命令窗中执行 nvcc -V初步判断是否安装成功
-![nvcc -v](https://github.com/fengyu10/CUDA-Programming/blob/master/CUDA 环境安装/nvcc -v.png)  
+![CUDA10 downloads](https://github.com/fengyu10/CUDA-Programming/blob/master/CUDA%20%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/CUDA10%20downloads.png)  
+通过在命令窗中执行 nvcc -V初步判断是否安装成功  
+
+![nvcc -v](https://github.com/fengyu10/CUDA-Programming/blob/master/CUDA%20%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/nvcc%20-v.png)  
+
 安装成功后(默认安装)系统会增加如下环境变量：
 ```
 CUDA_PATH：  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1
