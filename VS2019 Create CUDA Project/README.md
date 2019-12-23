@@ -65,3 +65,4 @@ int main() {
 	return 0;
 }
 ```
+![测试代码运行截图](https://github.com/fengyu10/CUDA-Programming/blob/master/VS2019%20Create%20CUDA%20Project/%E6%B5%8B%E8%AF%95%E4%BB%A3%E7%A0%81%E6%88%AA%E5%9B%BE.png?raw=true)
