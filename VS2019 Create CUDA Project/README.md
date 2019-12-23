@@ -1,14 +1,15 @@
 # VS2019 Create CUDA Project
 ## Create "控制台应用"
 新建项目，选择"控制台应用"  
-![控制台应用](https://github.com/fengyu10/CUDA-Programming/blob/master/VS2019%20Create%20CUDA%20Project/%E6%8E%A7%E5%88%B6%E5%8F%B0%E5%BA%94%E7%94%A8.png)  
+![控制台应用](https://github.com/fengyu10/CUDA-Programming/blob/master/VS2019%20Create%20CUDA%20Project/%E6%8E%A7%E5%88%B6%E5%8F%B0%E5%BA%94%E7%94%A8.png?raw=true)  
 ## 配置管理器
 右键项目->属性->配置管理器->Debug 修改成x64  
-![配置管理器](https://github.com/fengyu10/CUDA-Programming/blob/master/VS2019%20Create%20CUDA%20Project/%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%86%E5%99%A8.png)  
+![配置管理器](https://github.com/fengyu10/CUDA-Programming/blob/master/VS2019%20Create%20CUDA%20Project/%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%86%E5%99%A8.png?raw=true)  
 ## 自定义依赖项
 右键项目->生成依赖项->生成自定义->勾选"CUDA 10.1"  
-![自定义依赖项](https://github.com/fengyu10/CUDA-Programming/blob/master/VS2019%20Create%20CUDA%20Project/%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BE%9D%E8%B5%96%E9%A1%B9.png)  
-![勾选CUDA10.1](https://github.com/fengyu10/CUDA-Programming/blob/master/VS2019%20Create%20CUDA%20Project/%E5%8B%BE%E9%80%89CUDA%2010.1.png)   
+![自定义依赖项](https://raw.githubusercontent.com/fengyu10/CUDA-Programming/master/VS2019%20Create%20CUDA%20Project/%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BE%9D%E8%B5%96%E9%A1%B9.png)  
+
+![勾选CUDA10.1](https://raw.githubusercontent.com/fengyu10/CUDA-Programming/master/VS2019%20Create%20CUDA%20Project/%E5%8B%BE%E9%80%89CUDA%2010.1.png)   
 ## 附加依赖项增加
 右键项目->属性->链接器->输入->附加依赖项增加，添加以下文件名：  
 cublas.lib  
